@@ -13,7 +13,7 @@ apt install devscripts -y
 mk-build-deps --install
 make
 make clean
-cp ../ROG-logo-red.bmp debian/Logo.bmp
+cp ../ROG-logo-red-black.bmp debian/Logo.bmp
 cp ../sedPatch-pve-edk2-firmware-anti-dection.sh edk2/
 cd edk2
 chmod +x sedPatch-pve-edk2-firmware-anti-dection.sh
