@@ -3,7 +3,7 @@ name: Build anti-detection pve-edk2-firmware-ovmf deb
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch: 
 
 jobs:
